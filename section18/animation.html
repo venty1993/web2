@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            line-height: 200px;
+            font-size: 56px;
+            color: wheat;
+
+            animation-name: move-one;
+            animation-duration: 1s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        .circle:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes move-one {
+            from {
+                transform: translateX(0);
+            }
+            
+            to {
+                transform: translateX(500px);
+            }
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="circle">
+        원
+    </div>
+    안녕하세요
+</body>
+</html>
