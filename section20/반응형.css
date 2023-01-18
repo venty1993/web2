@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+header {
+    padding: 0 32px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.header-inner {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+main {
+    height: calc(100vh - 100px);
+}
+
+main > img {
+    height: 100%;
+    object-fit: cover;
+}
