@@ -1,0 +1,41 @@
+/* <style> */
+
+    .container {
+        max-width: 500px;
+        height: 500px;
+        border: 1px solid #222;
+        position: relative;
+    }
+
+    .container > div {
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        border: 1px solid #444;
+    }
+
+    .float-align {
+        float: left;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    
+    .float-right {
+        float: right;
+    }
+    .center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .flex-con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+/* </style> */
