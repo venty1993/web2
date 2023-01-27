@@ -1,0 +1,16 @@
+.band-logo {
+    display: block;
+    background: url('../imgs/spr_intro.png') no-repeat 0 -98px;
+	width: 78px;
+	height: 29px;
+    position: relative;
+}
+
+.hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+}
