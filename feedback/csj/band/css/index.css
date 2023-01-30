@@ -1,0 +1,277 @@
+/* 헤더 파트 */
+
+#header-container{
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+}
+
+#band-logo{
+    background: url(../img/spr_intro.png) no-repeat 0 -98px;
+	width: 78px;
+	height: 29px;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+#header-right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    min-width: 260px;
+    height: 35px;
+}
+#header-right>a{
+    padding:10px;
+    
+}
+
+#header-right button{
+    background-color: #21c531;
+    border: none;
+    color: white;
+    width:88px;
+    height:35px;
+    
+}
+
+/* 섹션 범용 속성 */
+
+.center-aligned{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+
+
+/* 맨 위 섹션 */
+#top-section>figure>img{
+    max-width: 540px;
+    max-height: 695px;
+}
+
+#top-section p{
+    padding-bottom: 15px;
+}
+#top-section h2{
+    font-size: clamp(1rem, 3.5vw, 2.7rem);
+    font-weight: normal;
+    padding-bottom: 3%;
+}
+
+#big-log-in-button{
+    width:340px;
+    height: 54px;
+    text-align: center;
+    background-color:#21c531;   
+    color: white;
+    border: none;
+
+}
+#how-to-use_nth-child{
+    width:340px;
+    height: 54px;
+    text-align: center;
+    background-color: white;
+    color:black;
+    border: 1px solid #ebebeb;
+}
+.guide-p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+}
+.guide-p a{
+    text-decoration: #2ecc71 underline;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+/* 2번째 섹션 */
+
+#chest-section{
+    width: 100%;
+    height: 540px;
+    background: url(../img/bg_intro.jpg);
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.63;
+}
+#chest-section>h2{
+    display: block;
+    font-size: clamp(1.3rem, 3.5vw, 2.5rem);
+    font-weight: normal;
+    padding: 10px;
+    
+}
+#chest-section>p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* 3번째 섹션 */
+#waist-section{
+    max-width: 3600px;
+    background-color: white;
+}
+
+#waist-section > ul {
+    width: 1000px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#waist-section li{
+    display: inline-block;
+    /* padding: 20px; */
+    text-align: left;
+}
+#waist-section img{
+    width:300px;
+    height: 160px;
+    padding-bottom: 15px;
+    
+}
+
+#waist-section strong{
+    font-size: 24px;
+    font-weight: 500; 
+    color:#222;
+}
+
+#waist-section p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#444;
+    margin-top: 6px;
+    line-height: 1.6;
+}
+
+
+/* 4번째 섹션 */
+#wrap{
+    display: block;
+}
+#how-bout-this{
+    display: flex;
+    justify-content: space-between;
+    height:35px;
+    margin-top: 80px;
+}
+
+#how-bout-this h2{    /* #how-bout-this에서 폰트설정 상속이 안 되어서 따로 만듬 */
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+#how-bout-this a{
+    font-size: 14px;
+}
+
+#how-bout-this li{
+    background:url();
+}
+
+/* 다운로드 권유 디비전 */
+
+#download-app{
+    width:100%;
+    height:70px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#download-app span{
+    background: url(../img/spr_intro.png) no-repeat -162px 0;
+	width: 500px;
+	height: 70px;
+    display: block;
+}
+
+#download-app strong{
+    font-size:24px; 
+    font-weight:500;
+    display: block;
+    margin-left: 80px;  
+    
+}
+#download-app p{
+    color:#666;
+    height:14px;
+    margin-left: 83px;
+}
+
+#google{
+    background: url(../img/spr_intro.png) no-repeat 0 0;
+	width: 160px;
+	height: 47px;
+    display: inline-block;
+    
+}
+#apple{ /*nth-child로 하려니 힘들어서 나눔 */
+    background: url(../img/spr_intro.png) no-repeat 0 -49px;
+    display: inline-block;
+    width: 160px;
+	height: 47px;
+}
+
+
+/* footer 영역 */
+
+footer{
+    background-color: #2a3038;
+    max-height: 200px;
+    min-height: 144px;  
+    width:100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer>nav{
+    max-width: 1000px;
+}
+
+footer>nav>a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #777;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav>p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b3b3;
+    margin-top: 5px;
+    width: 100%;
+}
+footer b{
+    color:#b3b3b3;
+}
+
+nav>a::after{
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    margin: 8px 5px 0 10px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    vertical-align: top;
+    opacity: .46;
+    content: '';
+}

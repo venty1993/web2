@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background:linear-gradient(#f6f8fa 40%, #fff 10%);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
