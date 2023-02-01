@@ -1,0 +1,99 @@
+#heading-and-search {
+    height: 400px;
+    background-image: url(../img/main-back.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#help-category {
+    padding: 0 32px;
+    padding-top: 100px;
+}
+
+.help-intro {
+    text-align: center;
+    color: #444;
+    margin-bottom: 96px;
+}
+
+.help-intro > h2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+
+.help-intro > p {
+    line-height: 1.3;
+}
+
+.noob-guide-link {
+    color: rgb(72, 72, 209);
+    text-decoration: none;
+}
+
+.discord-help {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.help-content {
+    width: 240px;
+    height: 272px;
+    box-sizing: border-box;
+    border: 1px solid #AAA;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.help-content > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.help-content figure {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.help-content img {
+    width: 100%;
+}
+
+.help-content h3 {
+    color: rgb(91, 91, 218);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.help-content h3::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 80px;
+    background-color: #AAA;
+    margin: 16px auto;
+}
+
+.help-content p {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #666;
+}
+
+.etc-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #444;
+}
