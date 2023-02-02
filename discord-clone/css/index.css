@@ -151,3 +151,64 @@ h1 {
     margin-bottom: 32px;
     color: #444;
 }
+
+footer {
+    background-color: #222;
+}
+
+.more-place{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn {
+    padding: 8px 80px;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.device-apps {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.device-apps > img {
+    width: 100%;
+}
+
+.device-app-icons {
+    position: absolute;
+    bottom: 40px;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.device-app-icons:hover {
+    opacity: 1;
+}
+
+.web-browser {
+    left: 72px;
+}
+
+.android {
+    left: 370px;
+}
+
+.apple {
+    left: 464px;
+}
+
+.window {
+    left: 604px;
+}
+
+.mac {
+    left: 674px;
+}
